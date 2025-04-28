@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+#controls {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 6px;
+}
+#play-btn {
+  padding: 4px 10px;
+  cursor: pointer;
+  width: 60px;
+  text-align: center;
+}
+#time-slider {
+  flex: 1;
+}
+#time-label {
+  min-width: 60px;
+  text-align: center;
+}
